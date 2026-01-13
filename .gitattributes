@@ -1,0 +1,6 @@
+jina-reranker-v3/model.safetensors filter=lfs diff=lfs merge=lfs -text
+jina-embeddings-v3/model.safetensors filter=lfs diff=lfs merge=lfs -text
+jina-embeddings-v3/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+jina-embeddings-v3/onnx/model_fp16.onnx filter=lfs diff=lfs merge=lfs -text
+jina-embeddings-v3/onnx/model.onnx_data.part_aa filter=lfs diff=lfs merge=lfs -text
+jina-embeddings-v3/onnx/model.onnx_data.part_ab filter=lfs diff=lfs merge=lfs -text
